@@ -111,13 +111,13 @@ public class SyncService extends Service {
                             int response = conn.getResponseCode();
                             Log.d(TAG, "The response is: " + response);
                         } catch (Exception ex) {
-                            Log.e(TAG, ex.getMessage());
+                            Log.e(TAG, "Sync service - problem with data loading", ex);
                         }
 
                         try {
                             Thread.sleep(SLEEP_TIME);
                         } catch (InterruptedException e) {
-                            Log.e(TAG, e.getMessage());
+                            Log.e(TAG, "Sync service - problem with task suspending", e);
                         }
                     }
 
