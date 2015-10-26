@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Scheduler</string>
+    <string name="current_sync_text">Current sync approach:</string>
+    <string name="alarm_sync">Start Alarm Sync</string>
+    <string name="info_alarm_sync">Alarm Sync info</string>
+    <string name="gcm_sync">Start GCM Sync</string>
+    <string name="info_gcm_sync">GCM Sync info</string>
+    <string name="stop_sync">Stop sync</string>
+    <string name="alarm_started_text">Alarm Sync started</string>
+    <string name="alarm_stopped_text">Alarm Sync stopped</string>
+    <string name="gcm_started_text">GCM Sync started</string>
+    <string name="gcm_stopped_text">GCM Sync stopped</string>
+    <string name="started_text">Sync have already started</string>
+    <string name="not_started_text">Sync isn\'t started</string>
+    <string name="time_info">Time since previous sync:</string>
+    <string name="start_time_info">Sync time:</string>
+    <string name="device_info">Device status:</string>
+</resources>
